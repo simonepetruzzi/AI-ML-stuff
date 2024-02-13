@@ -26,9 +26,9 @@ You can define two different types of communication channel functions:
 To change the type of noise you have to modify the **ToMeBlockMLP** class in the **utils.py**
 
 Let's clarify the different classes in the **utils.py**:
-  - ToMeBlock: this is the standard class from the timm repository, it is the basic pytorch transformer with the merging procedure
-  - ToMeBlocknoMerge: same as before, it does not have the merging procedure in it
-  - ToMeBlockMLP: this is equal to ToMeBlock but it adds the noise at the end of the MLP outout
-  - ToMeAttention: applies proportional attention and returns the mean of k over heads from attention
+  - **ToMeBlock**: this is the standard class from the timm repository, it is the basic pytorch transformer with the merging procedure
+  - **ToMeBlocknoMerge**: same as before, it does not have the merging procedure in it
+  - **ToMeBlockMLP**: this is equal to ToMeBlock but it adds the noise at the end of the MLP outout
+  - **ToMeAttention**: applies proportional attention and returns the mean of k over heads from attention
 
     
